@@ -1,0 +1,22 @@
+@font-face {
+  font-family: WavesHeadline;
+  src: url('https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-headline.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root { --display: WavesHeadline, WavesDisplay, 'Arial Narrow', Impact, sans-serif; }
+
+/* A sequência termina na desmontagem e abre espaço para o cardápio subir sobre ela. */
+.hero-scroll { height: 190svh; min-height: 1180px; }
+.ticker { position: relative; z-index: 10; margin-top: -18svh; }
+.menu-section { position: relative; z-index: 9; }
+
+@media (max-width: 760px) {
+  .hero-scroll { height: 195svh; min-height: 1250px; }
+  .ticker { margin-top: -12svh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker { margin-top: 0; }
+}

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="Tá na praia, tá no Waves. Conheça o universo da Waves Burger: burgers, bacon, queijo e bons momentos para compartilhar.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Waves Burger — Tá na praia, tá no Waves.</title>
+  <link rel="icon" href="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-logo.png" type="image/png">
+  <link rel="preload" as="font" href="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-display.woff" type="font/woff" crossorigin>
+  <link rel="preload" as="font" href="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-headline.woff" type="font/woff" crossorigin>
+  <link rel="preload" as="image" href="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/burger-layers.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="hero-refinement.css">
+  <link rel="stylesheet" href="locations.css">
+  <link rel="stylesheet" href="menu-current.css">
+  <script src="content-manager.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="menu.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#burgers">Ir para os burgers</a>
+  <header class="header" id="topo">
+    <a class="brand" href="#inicio" aria-label="Waves Burger, início"><img src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-logo.png" alt="Waves Burger" width="68" height="68"></a>
+    <nav aria-label="Navegação principal"><a href="#burgers">Os burgers</a><a href="#waves">A Waves</a><a href="#contato">Encontre a gente</a></nav>
+    <a class="button button-yellow header-order" href="#pedido">Peça agora <span aria-hidden="true">↗</span></a>
+    <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Navegação no celular" hidden><a href="#burgers">Os burgers</a><a href="#waves">A Waves</a><a href="#contato">Encontre a gente</a><a href="#pedido">Peça agora ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero-scroll" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-sticky">
+        <div class="hero-initial">
+          <p class="eyebrow"><span class="small-line"></span> BURGER PREMIUM. VIBE LÁ EM CIMA.</p>
+          <h1 id="hero-title">TÁ NA PRAIA,<br>TÁ NO <span>WAVES.</span></h1>
+          <p class="hero-description">Uma onda de sabor.<br>Da primeira à última mordida.</p>
+          <a class="button button-yellow hero-order" href="#pedido">Bora de Waves <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="exploded-heading" aria-hidden="true"><p class="eyebrow">POR DENTRO DESSA ONDA</p><h2>CAMADA<br>POR <span>CAMADA.</span></h2></div>
+        <div class="burger-stage" role="img" aria-label="Ilustração de um hambúrguer em camadas: pão, bacon, queijo, carne e pão. Os ingredientes se separam ao rolar a página.">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <span class="stage-caption" aria-hidden="true">UMA ONDA DE SABOR</span>
+          <div class="burger-shadow"></div>
+          <div class="burger-assembly" aria-hidden="true">
+            <div class="burger-layer layer-bun-top"><div class="ingredient-sprite"></div></div>
+            <div class="burger-layer layer-bacon"><div class="ingredient-sprite"></div></div>
+            <div class="burger-layer layer-cheese"><div class="ingredient-sprite"></div></div>
+            <div class="burger-layer layer-patty"><div class="ingredient-sprite"></div></div>
+            <div class="burger-layer layer-bun-bottom"><div class="ingredient-sprite"></div></div>
+          </div>
+          <div class="ingredient-label label-bun" aria-hidden="true"><span>01</span> O PÃO</div>
+          <div class="ingredient-label label-bacon" aria-hidden="true"><span>02</span> O BACON</div>
+          <div class="ingredient-label label-cheese" aria-hidden="true"><span>03</span> O QUEIJO</div>
+          <div class="ingredient-label label-patty" aria-hidden="true"><span>04</span> A CARNE</div>
+          <div class="illustration-note">Ilustração dos ingredientes</div>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span class="scroll-icon">↓</span><span>ROLE DEVAGAR.<br>A ONDA SÓ COMEÇOU.</span></div>
+        <div class="hero-chapter" aria-hidden="true"><span id="chapter-number">01</span><i></i><span>02</span></div>
+        <div class="hero-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+    <div class="ticker" aria-label="Waves Burger: burgers premium, bacon crocante, queijo derretido e muita boa vibe.">
+      <div class="ticker-track" aria-hidden="true">
+        <div class="ticker-group">BURGER PREMIUM <span>✳</span> BACON CROCANTE <span>✳</span> QUEIJO DERRETIDO <span>✳</span> TÁ NA PRAIA, TÁ NO WAVES <span>✳</span></div>
+        <div class="ticker-group">BURGER PREMIUM <span>✳</span> BACON CROCANTE <span>✳</span> QUEIJO DERRETIDO <span>✳</span> TÁ NA PRAIA, TÁ NO WAVES <span>✳</span></div>
+      </div>
+    </div>
+    <section class="menu-section" id="burgers" aria-labelledby="products-title">
+      <div class="menu-heading">
+        <div><p class="eyebrow">ESCOLHA A SUA ONDA</p><h2 id="products-title">NOSSO CARDÁPIO.</h2></div>
+        <div class="menu-controls">
+          <div class="menu-filters" role="group" aria-label="Filtrar o cardápio por categoria">
+            <button class="menu-filter" type="button" data-menu-filter="all" aria-pressed="true" aria-controls="menu-viewport">TODOS</button>
+            <button class="menu-filter" type="button" data-menu-filter="burgers" aria-pressed="false" aria-controls="menu-viewport">LANCHES</button>
+            <button class="menu-filter" type="button" data-menu-filter="combos" aria-pressed="false" aria-controls="menu-viewport">COMBOS</button>
+            <button class="menu-filter" type="button" data-menu-filter="sides" aria-pressed="false" aria-controls="menu-viewport">PORÇÕES</button>
+            <button class="menu-filter" type="button" data-menu-filter="shakes" aria-pressed="false" aria-controls="menu-viewport">MILK SHAKES</button>
+          </div>
+          <div class="menu-arrows" role="group" aria-label="Navegar pelo cardápio">
+            <button class="menu-arrow" type="button" data-menu-direction="previous" aria-label="Ver itens anteriores" aria-controls="menu-viewport" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg></button>
+            <button class="menu-arrow" type="button" data-menu-direction="next" aria-label="Ver próximos itens" aria-controls="menu-viewport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m10 5 7 7-7 7"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-viewport" id="menu-viewport" role="region" aria-label="Cardápio Waves. Use as setas ou deslize para explorar." tabindex="0">
+        <ul class="menu-track">
+          <li class="menu-item" data-category="burgers" data-product-id="duplo-bacon-onion"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/duplo-bacon-onion.jpg" alt="Duplo Bacon com Onion Rings" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Duplo Bacon com Onion Rings</h3><p class="menu-description">Pão brioche, dupla carne smash de 70 g, cheddar fatiado, anéis de cebola crocantes, barbecue dos deuses e bacon crocante.</p><div class="menu-card-footer"><strong class="menu-price">R$ 43,00</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="smash-duplo-bacon"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/smash-duplo-bacon.jpg" alt="Smash Duplo Bacon" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Smash Duplo Bacon</h3><p class="menu-description">Pão brioche, 2 carnes de 70 g, queijo em dobro nas duas carnes, bacon, cebola caramelizada e maionese dos deuses.</p><div class="menu-card-footer"><strong class="menu-price">R$ 35,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="waves-chicken"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://storage.googleapis.com/prod-cardapio-web/uploads/item/image/1889638/d599713fIMG_8580.jpg" alt="Waves Chicken Burger" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Waves Chicken Burger</h3><p class="menu-description">Pão brioche, burger de frango de 120 g, cheddar, alface americana e molho ranch (maionese especial de alho).</p><div class="menu-card-footer"><strong class="menu-price">R$ 32,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="burger-asturias"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/burger-asturias.jpg" alt="Burger Astúrias 140 g" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger Astúrias 140 g</h3><p class="menu-description">Pão brioche, carne de 140 g, cheddar em dobro e maionese dos deuses.</p><div class="menu-card-footer"><strong class="menu-price">R$ 28,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="burger-salada-enseada"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/burger-enseada.jpg" alt="Burger Salada — Enseada" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger Salada — Enseada</h3><p class="menu-description">Pão brioche, carne de 140 g, queijo em dobro, alface americana, tomate em rodelas e cebola caramelizada.</p><div class="menu-card-footer"><strong class="menu-price">R$ 39,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="burger-bacon-pitangueiras"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/burger-pitangueiras.jpg" alt="Burger Bacon — Pitangueiras" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger Bacon — Pitangueiras</h3><p class="menu-description">Pão brioche, carne de 140 g, cheddar em dobro, bacon crocante e molho barbecue.</p><div class="menu-card-footer"><strong class="menu-price">R$ 42,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="burger-onion-eden"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/burger-eden.jpg" alt="Burger Onion Bacon — Praia do Eden" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger Onion Bacon — Praia do Eden</h3><p class="menu-description">Pão brioche, carne de 140 g, cheddar cremoso com bacon crocante, onion bacon e maionese dos deuses.</p><div class="menu-card-footer"><strong class="menu-price">R$ 52,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="cheddar-kids"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/cheddar-kids.jpg" alt="Cheddar Kids Burger" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Cheddar Kids Burger</h3><p class="menu-description">Pão brioche chapeado, carne smash de 70 g e fatias de queijo cheddar.</p><div class="menu-card-footer"><strong class="menu-price">R$ 29,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="burgers" data-product-id="burger-013"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/burger-013.jpg" alt="Burger 013 Bacon Cheddar" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger 013 Bacon Cheddar</h3><p class="menu-description">Pão brioche chapeado, burger artesanal de 140 g, creme de cheddar, bacon em flocos crocante e maionese dos deuses.</p><div class="menu-card-footer"><strong class="menu-price">R$ 41,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-kids"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-kids.jpg" alt="Burger Kids + Batata + Kapo + Brinde" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Burger Kids + Batata + Kapo + Brinde</h3><p class="menu-description">Pão brioche, carne smash de 70 g, cheddar, batata, suco Kapo e docinho de brinde.</p><div class="menu-card-footer"><strong class="menu-price">R$ 39,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-2-smash-duplo"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-2-smash.jpg" alt="2 Smash Duplo Bacon + 2 Batatas" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>2 Smash Duplo Bacon + 2 Batatas</h3><p class="menu-description">2 lanches, 2 batatas e Coca-Cola 600 ml. Pão brioche chapeado, 2 carnes smash de 70 g, queijo em dobro, bacon e maionese dos deuses.</p><div class="menu-card-footer"><strong class="menu-price">R$ 89,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-salada-bacon"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-salada.jpg" alt="Smash Salada Bacon + Batata + Coca" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Smash Salada Bacon + Batata + Coca</h3><p class="menu-description">Smash em dobro com bacon, alface americana, tomate, batata Crinkle, molho barbecue e Coca-Cola 350 ml.</p><div class="menu-card-footer"><strong class="menu-price">R$ 50,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-2-salada-bacon"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-2-salada.jpg" alt="2 Salada Bacon + 2 Batatas" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>2 Salada Bacon + 2 Batatas</h3><p class="menu-description">2 burgers duplos com bacon, alface americana, tomate, 2 batatas Crinkle, molhos barbecue e Coca-Cola 600 ml.</p><div class="menu-card-footer"><strong class="menu-price">R$ 89,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-bacon-dobro"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-bacon-dobro.jpg" alt="2 Burgers Bacon em Dobro + 2 Batatas" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>2 Burgers Bacon em Dobro + 2 Batatas</h3><p class="menu-description">2 burgers com carne smash de 70 g, queijo em dobro, bacon, 2 batatas Crinkle, Coca-Cola 600 ml e molhos especiais.</p><div class="menu-card-footer"><strong class="menu-price">R$ 89,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-triplo-bacon"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-triplo.jpg" alt="Smash Triplo Bacon + Batata + Coca" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Smash Triplo Bacon + Batata + Coca</h3><p class="menu-description">Pão brioche, 3 carnes smash de 70 g, 6 fatias de cheddar, bacon em tiras, batata Crinkle e Coca-Cola 350 ml.</p><div class="menu-card-footer"><strong class="menu-price">R$ 54,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="combos" data-product-id="combo-casal-netflix"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/combo-casal.jpg" alt="Combo Casal Netflix" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Combo Casal Netflix</h3><p class="menu-description">1 Burger Bacon, 1 Burger Onion Bacon, 2 batatas e Coca-Cola 600 ml.</p><div class="menu-card-footer"><strong class="menu-price">R$ 89,90</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="sides" data-product-id="batata-media"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/batata-media.jpg" alt="Batata Waves Média" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Batata Waves Média</h3><p class="menu-description">Batatinha sequinha e crocante, temperada com sal.</p><div class="menu-card-footer"><strong class="menu-price">R$ 14,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="sides" data-product-id="batata-gigante"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/batata-gigante.jpg" alt="Batata Waves Gigante" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Batata Waves Gigante</h3><p class="menu-description">Batatinha sequinha e crocante, temperada com sal.</p><div class="menu-card-footer"><strong class="menu-price">R$ 30,00</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="sides" data-product-id="nuggets"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/nuggets.jpg" alt="Nuggets Waves" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Nuggets Waves</h3><p class="menu-description">10 nuggets crocantes por fora e fofinhos por dentro.</p><div class="menu-card-footer"><strong class="menu-price">R$ 24,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="shakes" data-product-id="milk-morango"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://storage.googleapis.com/prod-cardapio-web/uploads/item/image/1889223/e8a80e51IMG_9177.jpeg" alt="Milk Shake Especial de Morango" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Milk Shake Especial de Morango</h3><p class="menu-description">Milk shake com calda diferenciada e pequenos pedaços de morango, trazendo um sabor especial e rústico.</p><div class="menu-card-footer"><strong class="menu-price">R$ 17,99</strong></div></div>
+          </article></li>
+          <li class="menu-item" data-category="shakes" data-product-id="milk-chocolate"><article class="menu-card">
+            <div class="menu-photo"><img class="menu-image" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/menu-current/milk-chocolate.jpg" alt="Milk Shake de Chocolate 300 ml" width="1000" height="1000" loading="lazy"></div>
+            <div class="menu-card-body"><h3>Milk Shake de Chocolate 300 ml</h3><p class="menu-description">Blend de chocolate premium, cremosidade irresistível e toque geladinho. Uma experiência que combina com qualquer momento.</p><div class="menu-card-footer"><strong class="menu-price">R$ 17,99</strong></div></div>
+          </article></li>
+        </ul>
+      </div>
+      <p class="menu-status sr-only" role="status" aria-live="polite" aria-atomic="true">Todos: 21 itens.</p>
+      <div class="menu-bottom"><p>Conheça os destaques e veja o cardápio completo oficial.</p><a class="text-link" href="https://app.cardapioweb.com/wavesburger" target="_blank" rel="noopener noreferrer">Ver cardápio completo <span aria-hidden="true">↗</span><span class="sr-only"> abre em nova aba</span></a></div>
+    </section>
+    <section class="waves-story" id="waves" aria-labelledby="waves-title">
+      <div class="story-photos"><img class="story-photo-main" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/story-main-hq.png" alt="Hambúrguer Waves com batata, embalagem e Coca-Cola" width="1254" height="1254" loading="lazy"><img class="story-photo-small" src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/story-small-hq.png" alt="Dois hambúrgueres Waves com batatas e Coca-Cola" width="1254" height="1254" loading="lazy"><div class="photo-caption">BURGER BOM.<br>BOA COMPANHIA.</div></div>
+      <div class="story-copy"><p class="eyebrow">ESSA É A NOSSA VIBE</p><h2 id="waves-title">O MAR É<br>PRA TODOS.<br><span>A FOME TAMBÉM.</span></h2><p>O nome vem das ondas. A vontade de juntar a galera vem junto. Aqui, o burger é protagonista e a boa companhia faz parte do pedido.</p><p>Puxa uma cadeira, chama quem vai dividir a batata e vem de Waves.</p><a class="text-link" href="https://www.instagram.com/wavesburger.ofc_/" target="_blank" rel="noopener noreferrer">Conheça a Waves no Instagram <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <div class="ticker ticker-waves" aria-label="Waves">
+      <div class="ticker-track" aria-hidden="true">
+        <div class="ticker-group">WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i></div>
+        <div class="ticker-group">WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i>WAVES<i class="ticker-dot"></i></div>
+      </div>
+    </div>
+    <section class="locations-section" id="contato" aria-labelledby="locations-title">
+      <div class="locations-heading"><p class="eyebrow">ENCONTRE A GENTE</p><h2 id="locations-title">LOCALIZAÇÃO<br>&amp; HORÁRIOS.</h2></div>
+      <div class="locations-grid">
+        <div class="locations-info">
+          <div class="location-block"><h3>ENDEREÇO</h3><address>Rua Dr. Lauro Parente, 1285<br>Cidade Ademar<br>São Paulo — SP</address><a class="location-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Dr+Lauro+Parente+1285+Cidade+Ademar+Sao+Paulo+SP" target="_blank" rel="noopener noreferrer">Abrir no mapa <span aria-hidden="true">↗</span><span class="sr-only"> em nova aba</span></a></div>
+          <div class="location-block"><h3>HORÁRIOS</h3><dl class="hours-list"><div><dt>Domingo a quinta</dt><dd>18h — 0h</dd></div><div><dt>Sexta e sábado</dt><dd>18h — 2h</dd></div></dl></div>
+          <div class="location-block location-social"><h3>ACOMPANHE A ONDA</h3><a class="location-link" href="https://www.instagram.com/wavesburger.ofc_/" target="_blank" rel="noopener noreferrer">@wavesburger.ofc_ <span aria-hidden="true">↗</span><span class="sr-only"> no Instagram, abre em nova aba</span></a></div>
+        </div>
+        <div class="map-frame"><iframe title="Mapa com a localização da Waves Burger" src="https://www.google.com/maps?q=Rua+Dr.+Lauro+Parente,+1285,+Cidade+Ademar,+Sao+Paulo,+SP&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </section>
+    <section class="order-section section-space" id="pedido" aria-labelledby="order-title">
+      <div class="order-orbit" aria-hidden="true"></div>
+      <p class="eyebrow">SUA PRÓXIMA MORDIDA TEM NOME</p><h2 id="order-title">DEU ONDA.<br><span>DEU FOME.</span></h2><p>Escolha seu burger e peça direto pelo app<br>que você já usa.</p><div class="order-options"><a class="button button-dark" href="https://ola99app.com/dlp/gU4i94" target="_blank" rel="noopener noreferrer">Pedir pela 99 <span aria-hidden="true">↗</span><span class="sr-only"> abre em nova aba</span></a><a class="button button-dark" href="https://url-eu.mykeeta.com/P3kznS0z" target="_blank" rel="noopener noreferrer">Pedir pela Keeta <span aria-hidden="true">↗</span><span class="sr-only"> abre em nova aba</span></a></div><span class="order-channel">Pedidos somente pela 99 ou Keeta</span>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-top"><a class="brand" href="#inicio" aria-label="Voltar ao início"><img src="https://waves-burger.oluizcanabrasil.chatgpt.site/assets/waves-logo.png" alt="Waves Burger" width="85" height="85" loading="lazy"></a><div><p class="footer-label">NA HORA DA FOME</p><p>Domingo a quinta · 18h à 0h<br>Sexta e sábado · 18h às 2h</p></div><div class="footer-location"><p class="footer-label">ONDE ESTAMOS</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Dr+Lauro+Parente+1285+Cidade+Ademar+Sao+Paulo+SP" target="_blank" rel="noopener noreferrer">Rua Dr. Lauro Parente, 1285<br>Cidade Ademar<br>São Paulo — SP ↗</a></div><div><p class="footer-label">ACOMPANHE A ONDA</p><a href="https://www.instagram.com/wavesburger.ofc_/" target="_blank" rel="noopener noreferrer">@wavesburger.ofc_ ↗</a><p><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Dr+Lauro+Parente+1285+Cidade+Ademar+Sao+Paulo+SP" target="_blank" rel="noopener noreferrer">Abrir no mapa ↗</a></p></div><a class="back-top" href="#inicio" aria-label="Voltar ao início">↑</a></div>
+    <div class="footer-wordmark" aria-hidden="true">WAVES BURGER</div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> Waves Burger</span><span>TÁ NA PRAIA, TÁ NO WAVES.</span><a class="r5-credit" href="https://www.instagram.com/rua5produtora/" target="_blank" rel="noopener noreferrer">Site por <strong>R5</strong> ↗<span class="sr-only">, abre o Instagram da Rua 5 em nova aba</span></a></div>
+  </footer>
+  <a class="mobile-order button button-yellow" href="#pedido">Bora de Waves <span aria-hidden="true">↗</span></a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* Fotos oficiais em corte cheio, sem margens internas ou espaços brancos. */
+.menu-photo { background: #171714; }
+.menu-photo .menu-image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+/* A segunda esteira fecha a seção escura e abre a área de localização. */
+.ticker-waves { position: relative; z-index: 10; margin-top: 0; background: var(--ink); color: var(--white); border-color: #30302b; }
+.ticker-waves .ticker-track { gap: 14px; animation-duration: 21s; }
+.ticker-waves .ticker-group { gap: 14px; font-size: clamp(28px, 3vw, 44px); letter-spacing: .015em; padding-right: 0; }
+.ticker-waves .ticker-dot { display: block; width: 5px; height: 5px; flex: 0 0 5px; background: currentColor; }
+
+@media (max-width: 760px) {
+  .menu-filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ticker-waves .ticker-group { gap: 11px; font-size: 30px; }
+  .ticker-waves .ticker-track { gap: 11px; }
+}
